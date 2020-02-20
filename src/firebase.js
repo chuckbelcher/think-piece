@@ -20,6 +20,7 @@ const config = {
 
   export const firestore = firebase.firestore();
   export const auth = firebase.auth();
+  export const firebaseSignOut = () => auth.signOut();
   export const provider = new firebase.auth.GoogleAuthProvider();
   export const signInWithGoogle = () => auth.signInWithPopup(provider);
   export default firebase;
