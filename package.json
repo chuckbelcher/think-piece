@@ -3,16 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "fast-crc32c": "^2.0.0",
     "firebase": "^5.7.0",
-    "firebase-admin": "^6.4.0",
+    "firebase-admin": "^6.5.1",
     "firebase-tools": "^6.1.2",
+    "http2": "^3.3.7",
     "moment": "^2.22.2",
     "react": "^16.7.0-alpha.2",
     "react-dom": "^16.7.0-alpha.2",
     "react-redux": "^6.0.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^2.1.5",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "worker-threads": "^1.0.0",
+    "write-file-atomic": "^3.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,6 +34,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.13.1"
   }
 }
